@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1 class="heading">Football Store</h1>
+
+    <div class="buttons">
+      <button id="all" type="button" class="btn btn-light">All</button>
+      <button id="england" type="button" class="btn btn-light">England</button>
+      <button id="portugal" type="button" class="btn btn-light">
+        Portugal
+      </button>
+      <button id="belgium" type="button" class="btn btn-light">Belgium</button>
+      <button id="france" type="button" class="btn btn-light">France</button>
+    </div>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="button-addon1"
+        >
+          <i class="fa fa-search"></i>
+        </button>
+      </div>
+      <input
+        id="search"
+        type="text"
+        class="form-control"
+        placeholder="Player Name e.g.(marcus rashford)"
+        aria-label="Example text with button addon"
+        aria-describedby="button-addon1"
+      />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div id = "englandCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/england/wayne_rooney.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Wayne Rooney</h5>
+              <p id="nation" class="card-text">
+                England
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id = "englandCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/england/rashford.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Marcus Rashford</h5>
+              <p id="nation" class="card-text">
+                England
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id = "englandCard" class="col-4">
+          <div   class="card">
+            <img
+              class="card-img-top"
+              src="images/england/jadonsancho.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jadon Sancho</h5>
+              <p id="nation" class="card-text">
+                England
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id = "englandCard" class="col-4">
+          <div   class="card">
+            <img
+              class="card-img-top"
+              src="images/england/harry.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Harry Maguire</h5>
+              <p id="nation" class="card-text">
+                England
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id = "englandCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/england/lingard.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jesse Lingard</h5>
+              <p id="nation" class="card-text">
+                England
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="franceCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/france/pogba.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Paul Pogba</h5>
+              <p id="nation" class="card-text">France</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="franceCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/france/mbappe.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Kylian Mbappe</h5>
+              <p id="nation" class="card-text">France</p>
+            </div>
+          </div>
+        </div>
+        <div id="franceCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/france/Griezmann.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Antoine Griezmann</h5>
+              <p id="nation" class="card-text">France</p>
+            </div>
+          </div>
+        </div>
+        <div id="franceCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/france/hugo.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Hugo Lloris</h5>
+              <p id="nation" class="card-text">France</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div  id="belgiumCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/belgium/Lukaku.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Romelu Lukaku</h5>
+              <p id="nation" class="card-text">Belgium</p>
+            </div>
+          </div>
+        </div>
+        <div id="belgiumCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/belgium/hazard.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Eden Hazard</h5>
+              <p id="nation" class="card-text">Belgium</p>
+            </div>
+          </div>
+        </div>
+        <div id="belgiumCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/belgium/januzaj.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Adnan Januzaj</h5>
+              <p id="nation" class="card-text">
+                Belgium
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="belgiumCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/belgium/toby.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Toby Alderweireld</h5>
+              <p id="nation" class="card-text">
+                Belgium
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="portugalCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/portugal/ronaldo.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Cristiano Ronaldo</h5>
+              <p id="nation" class="card-text">
+                Portugal
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="portugalCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/portugal/bruno.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bruno Fernandes</h5>
+              <p id="nation" class="card-text">
+                Portugal
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div id="portugalCard" class="col-4">
+          <div class="card">
+            <img
+              class="card-img-top"
+              src="images/portugal/felix.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Joao Felix</h5>
+              <p id="nation" class="card-text">
+                Portugal
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="portugalCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/portugal/joao.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Joao Moutinho</h5>
+              <p id="nation" class="card-text">
+                Portugal
+              </p>
+            </div>
+          </div>
+        </div>
+        <div id="portugalCard" class="col-4">
+          <div  class="card">
+            <img
+              class="card-img-top"
+              src="images/portugal/bsilva.jpg"
+              alt="Card image cap"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Bernardo Silva</h5>
+              <p id="nation" class="card-text">
+                Portugal
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
